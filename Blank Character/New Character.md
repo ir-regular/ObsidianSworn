@@ -10,10 +10,10 @@ assets:
 Some details about your character.
 
 ### Stats
-![[_Stats]]  
+![[Blank Character/_Stats]]  
 
 ### Tracks
-![[_Tracks]]
+![[Blank Character/_Tracks]]
 
 ## Bonds
 [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ]
@@ -21,10 +21,10 @@ Some details about your character.
 ## Vows
 [[Moves#Swear an Iron Vow|Swear]] // [[Moves#Fulfill Your Vow|Fulfill]] // [[Moves#Forsake Your Vow|Forsake]]
 
-![[_Vows]]
+![[Blank Character/_Vows]]
 
 ## Assets
-![[_Assets]]
+![[Blank Character/_Assets]]
 
 ## Equipment
 * Add your equipment here
