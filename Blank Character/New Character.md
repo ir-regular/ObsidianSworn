@@ -16,7 +16,9 @@ Some details about your character.
 ![[Blank Character/_Tracks]]
 
 ## Bonds
-[ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ]
+[[Moves#Forge a Bond|Forge a Bond]] // [[Moves#Test Your Bond|Test Your Bond]]
+
+![[Blank Character/_Bonds]]
 
 ## Vows
 [[Moves#Swear an Iron Vow|Swear]] // [[Moves#Fulfill Your Vow|Fulfill]] // [[Moves#Forsake Your Vow|Forsake]]
