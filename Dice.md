@@ -3,6 +3,6 @@
  **D6** `dice: 1d6`
  
 ## Challenge dice
-`dice: [[_Challenge Dice#^BasicTest]]`
+`dice: [[Challenge Dice#^BasicTest]]`
 
 
