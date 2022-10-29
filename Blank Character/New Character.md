@@ -23,6 +23,9 @@ Some details about your character.
 
 ![[Blank Character/_Vows]]
 
+## Progress
+![[Blank Character/_Progress]]
+
 ## Assets
 ![[Blank Character/_Assets]]
 
