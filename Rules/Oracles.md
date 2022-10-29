@@ -4,7 +4,7 @@
 
 `dice: 1d100|norender`
 
-Roll  | Result
+dice:d100  | Result
 ----- | ------------
 1-2   | Criminal
 3-4   | Healer
@@ -36,12 +36,13 @@ Roll  | Result
 90-94 | Trader
 95-99 | Farmer
 100   | Unusual role
+^character-role
 
 ### Goal
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ------------------------
 1-3    | Obtain an object
 4-6    | Make an agreement
@@ -76,12 +77,13 @@ Roll   | Result
 91-92  | Escape from something
 93-95  | Resolve a dispute
 96-100 | [Roll twice]
+^character-goal
 
 ### Descriptor
 
 `dice: 1d100|norender`
 
-Roll | Result
+dice:d100 | Result
 ---- | ------------
 1    | Stoic
 2    | Attractive
@@ -183,12 +185,13 @@ Roll | Result
 98   | Obsessed
 99   | Careless
 100  | Smug
+^character-descriptor
 
 ### Disposition
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | -----------
 1-6    | Helpful
 7-13   | Friendly
@@ -202,12 +205,13 @@ Roll   | Result
 77-85  | Unfriendly
 86-93  | Threatening
 94-100 | Hostile
+^character-disposition
 
 ### Activity
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ------------
 1-2    | Guarding
 3-4    | Preserving
@@ -259,6 +263,7 @@ Roll   | Result
 95-96  | Removing
 97-98  | Inspecting
 99-100 | Summoning
+^character-activity
 
 ## Site Oracles
 
@@ -268,7 +273,7 @@ Roll   | Result
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | -----------------------------------
 1-25   | [Description] {Place}
 26-50  | {Place} of [Detail]
@@ -277,12 +282,13 @@ Roll   | Result
 81-85  | [Namesake] {Place}
 86-95  | [Description] {Place} of [Namesake]
 96-100 | {Place} of [Namesake]
+^site-name-format
 
 #### Description
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ------------
 1-2    | Deep
 3-4    | Tainted
@@ -334,12 +340,13 @@ Roll   | Result
 95-96  | Sacred
 97-98  | Fallen
 99-100 | Ruined
+^site-name-description
 
 #### Detail
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ----------
 1-2    | Blight
 3-4    | Strife
@@ -391,12 +398,13 @@ Roll   | Result
 95-96  | Dread
 97-98  | Light
 99-100 | Wrath
+^site-name-detail
 
 #### Namesake
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | --------
 1-2    | Breckon
 3-4    | Issara
@@ -448,6 +456,7 @@ Roll   | Result
 95-96  | Arnorr
 97-98  | Thyri
 99-100 | Erisia
+^site-name-namesake
 
 #### Place
 
@@ -457,7 +466,7 @@ Roll   | Result
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ---------
 1-11   | Ancient
 12-23  | Corrupted
@@ -467,12 +476,13 @@ Roll   | Result
 62-74  | Infested
 75-87  | Ravaged
 88-100 | Wild
+^site-nature-theme
 
 #### Domain
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | -------------
 1-6    | Barrow
 7-18   | Cavern
@@ -486,6 +496,7 @@ Roll   | Result
 79-83  | Stronghold
 84-95  | Tanglewood
 96-100 | Underkeep
+^site-nature-domain
 
 ## Monstrosity Oracles
 
@@ -493,7 +504,7 @@ Roll   | Result
 
 `dice: 1d100|norender`
 
-Roll  | Result
+dice:d100  | Result
 ----- | --------------------------
 1-5   | Tiny (rodent-sized)
 6-30  | Small (hound-sized)
@@ -501,12 +512,13 @@ Roll  | Result
 66-94 | Large (giant-sized)
 95-99 | Huge (whale-sized)
 100   | Titanic (incomprehensible)
+^monstrosity-size
 
 ### Primary Form
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | --------------------
 1-15   | Beast / mammal
 16-25  | Humanoid
@@ -526,12 +538,13 @@ Roll   | Result
 79     | Mineral
 80     | Elemental
 81-100 | Hybrid: (Roll twice)
+^monstrosity-form
 
 ### Characteristics
 
 `dice: 1d100|norender`
 
-Roll  | Result
+dice:d100  | Result
 ----- | ---------------------------
 1-5   | Extra limbs
 6-10  | Fangs / rows of sharp teeth
@@ -561,12 +574,13 @@ Roll  | Result
 98    | Mummified / desiccated
 99    | Multi-headed
 100   | Etched with mystic runes
+^monstrosity-characteristics
 
 ### Abilities
 
 `dice: 1d100|norender`
 
-Roll  | Result
+dice:d100  | Result
 ----- | --------------------------
 1-4   | Keen senses
 5-8   | Intimidating vocalization
@@ -608,6 +622,7 @@ Roll  | Result
 98    | Move between realities
 99    | Wield weapons
 100   | Control elements
+^monstrosity-abilities
 
 ## Name Oracles
 
@@ -615,7 +630,7 @@ Roll  | Result
 
 `dice: 1d100|norender`
 
-Roll | Result
+dice:d200 | Result
 ---- | -------
 1    | Solana
 2    | Keelan
@@ -817,12 +832,13 @@ Roll | Result
 198  | Kayu
 199  | Bevan
 200  | Chandra
+^names-ironlander
 
 ### Elf Names
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ---------
 1-2    | Arsula
 3-4    | Naidita
@@ -874,12 +890,13 @@ Roll   | Result
 95-96  | Otani
 97-98  | Ditani
 99-100 | Faraza
+^names-elf
 
 ### Giant Names
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | -------
 1-4    | Chony
 5-8    | Banda
@@ -906,12 +923,13 @@ Roll   | Result
 89-92  | Tuban
 93-96  | Qudan
 97-100 | Denua
+^names-giant
 
 ### Varou Names
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ------
 1-4    | Vata
 5-8    | Zora
@@ -938,12 +956,13 @@ Roll   | Result
 89-92  | Dreko
 93-96  | Aleko
 97-100 | Vojan
+^names-varou
 
 ### Troll Names
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | -------
 1-4    | Rattle
 5-8    | Scratch
@@ -970,6 +989,7 @@ Roll   | Result
 89-92  | Snuffle
 93-96  | Leech
 97-100 | Herk
+^names-troll
 
 ## Place Oracles
 
@@ -977,7 +997,7 @@ Roll   | Result
 
 `dice: 1d100|norender`
 
-Roll  | Result
+dice:d100  | Result
 ----- | ----------------
 1-12  | Barrier Islands
 13-24 | Ragged Coast
@@ -989,12 +1009,13 @@ Roll  | Result
 85-94 | Veiled Mountains
 95-99 | Shattered Wastes
 100   | Elsewhere
+^place-region
 
 ### Location
 
 `dice: 1d100|norender`
 
-Roll  | Result
+dice:d100  | Result
 ----- | -------------
 1     | Hideout
 2     | Ruin
@@ -1047,12 +1068,13 @@ Roll  | Result
 89-93 | Mountain
 94-99 | Woods
 100   | Anomaly
+^place-location
 
 ### Coastal Waters Location
 
 `dice: 1d100|norender`
 
-Roll  | Result
+dice:d100  | Result
 ----- | -------------
 1     | Fleet
 2     | Sargassum
@@ -1071,12 +1093,13 @@ Roll  | Result
 71-85 | Island
 86-99 | Open Water
 100   | Anomaly
+^place-coastal-location
 
 ### Location Descriptor
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ------------
 1-2    | High
 3-4    | Remote
@@ -1128,6 +1151,7 @@ Roll   | Result
 95-96  | Civilized
 97-98  | Desolate
 99-100 | Isolated
+^place-location-descriptor
 
 ## Prompt Oracles
 
@@ -1135,7 +1159,7 @@ Roll   | Result
 
 `dice: 1d100|norender`
 
-Roll | Result
+dice:d100 | Result
 ---- | -----------
 1    | Scheme
 2    | Clash
@@ -1237,12 +1261,13 @@ Roll | Result
 98   | Search
 99   | Charge
 100  | Summon
+^prompt-action
 
 ### Theme
 
 `dice: 1d100|norender`
 
-Roll | Result
+dice:d100 | Result
 ---- | ------------
 1    | Risk
 2    | Ability
@@ -1344,6 +1369,7 @@ Roll | Result
 98   | Home
 99   | Strategy
 100  | Supply
+^prompt-theme
 
 ### Feature
 
@@ -1357,7 +1383,7 @@ Roll | Result
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | --------------------------------
 1-15   | A feature of the landscape
 16-30  | A manmade edifice
@@ -1366,14 +1392,44 @@ Roll   | Result
 61-75  | A word in an Old World language
 76-90  | A season or environmental aspect
 91-100 | Something Else....
+^settlement-name
 
 ### Quick Settlement Name
+
+dice:d100 | Prefix | Suffix
+---| --- | ---
+1-4 | Bleak- | -moor
+5-8 | Green- | -ford
+9-12 | Wolf- | -crag
+13-16 | Raven- | -watch
+17-20 | Gray- | -hope
+21-24 | Red- | -wood
+25-28 | Axe- | -ridge
+29-32 | Great- | -stone
+33-36 | Wood- | -haven
+37-40 | Low- | -fall(s)
+41-44 | White- | -river
+45-48 | Storm- | -field
+49-52 | Black- | -hill
+53-56 | Mourn- | -bridge
+57-60 | New- | -mark
+61-64 | Stone- | -cairn
+65-68 | Grim- | -land
+69-72 | Lost- | -hall
+73-76 | High- | -mount
+77-80 | Rock- | -rock
+81-84 | Shield- | -brook
+85-88 | Sword- | -barrow
+89-92 | Frost- |-stead
+93-96 | Thorn- | -home
+97-00 | Long- | -wick
+^settlement-quick-name
 
 ### Settlement Trouble
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | --------------------------
 1-2    | Outsiders rejected
 3-4    | Dangerous discovery
@@ -1421,6 +1477,7 @@ Roll   | Result
 87-88  | Important event threatened
 89-90  | Dangerous tradition
 91-100 | (Roll twice)
+^settlement-trouble
 
 ## Threat Oracles
 
@@ -1428,7 +1485,7 @@ Roll   | Result
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ----------------------
 1-10   | Burgeoning Conflict
 11-20  | Cursed Site
@@ -1440,6 +1497,7 @@ Roll   | Result
 71-80  | Power-Hungry Mystic
 81-90  | Zealous Cult
 91-100 | (Roll twice)
+^threat-category
 
 ### Burgeoning Conflict
 
@@ -1594,25 +1652,27 @@ Roll   | Result
 81-90  | Reveal a dire prophecy
 91-100 | Reveal its true nature or goal
 
+
 ## Turning Point Oracles
 
 ### Challenge Rank
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | -----------
 1-20   | Troublesome
 21-55  | Dangerous
 56-80  | Formidable
 81-93  | Extreme
 94-100 | Epic
+^turning-point-rank
 
 ### Combat Action
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ----------------------------------------------
 1-3    | Compel a surrender.
 4-6    | Coordinate with allies.
@@ -1631,12 +1691,13 @@ Roll   | Result
 69-78  | Create an opportunity.
 79-89  | Attack with precision.
 90-100 | Attack with power.
+^turning-point-combat
 
 ### Major Plot Twist
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | -------------------------------------------------------------
 1-2    | It was all a diversion.
 3-10   | A dark secret is revealed.
@@ -1658,12 +1719,13 @@ Roll   | Result
 86-90  | Two seemingly unrelated situations are shown to be connected.
 91-95  | Unexpected powers or abilities are revealed.
 96-100 | (Roll twice)
+^turning-point-plot-twist
 
 ### Mystic Backlash
 
 `dice: 1d100|norender`
 
-Roll   | Result
+dice:d100   | Result
 ------ | ------------------------------------------------------------------------------------------------------------------------------
 1-5    | The ritual has the opposite affect.
 6-10   | You are sapped of strength.
@@ -1685,3 +1747,4 @@ Roll   | Result
 86-90  | You are tempted by dark powers. Envision what you are shown.
 91-95  | A horrifying vision manifests. Envision what you see.
 96-100 | Roll twice more on this table. Both results occur. If they are the same result, make it worse.
+^turning-point-mystic-backlash
